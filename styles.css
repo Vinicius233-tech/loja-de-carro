@@ -1,0 +1,98 @@
+.quadrado {
+    padding: 10px;
+width: 800px;
+height: 372px;
+display: inline-block;
+}
+
+.porshe {
+    max-width: 1000px;
+    border: green;
+}
+  
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.grupo {
+    display: flex;
+  gap: 630px;
+  background: black;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+font-size: 20px;
+
+}
+
+body {
+    background: #171a21;
+}
+
+button {
+    background: red;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: right;
+    justify-content: flex-end;
+}
+
+button:hover {
+    background: rgb(102, 2, 2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+}
+
+.quadrado2 {
+    width: 420px;
+    height: 305px;
+display: inline-block;
+object-fit: cover;
+}
+
+.quadrado3 {
+    padding: 10px;
+width: 800px;
+height: 372px;
+display: inline-block;
+}
+
+.quadrado4 {
+    padding: 10px;
+width: 800px;
+height: 372px;
+display: inline-block;
+}
+
+.quadrado5 {
+    padding: 10px;
+width: 800px;
+height: 372px;
+display: inline-block;
+}
+
+.quadrado6 {
+    padding: 10px;
+width: 800px;
+height: 372px;
+display: inline-block;
+}
+
+.ferrari {
+    border: green;
+    min-width: 100px;
+    max-block-size: 245px;
+}
+
+
