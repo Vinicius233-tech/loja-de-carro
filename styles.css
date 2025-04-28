@@ -1,98 +1,66 @@
-.quadrado {
-    padding: 10px;
-width: 800px;
-height: 372px;
-display: inline-block;
-}
-
-.porshe {
-    max-width: 1000px;
-    border: green;
-}
-  
-* {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-}
-
-.grupo {
-    display: flex;
-  gap: 630px;
-  background: black;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 0px 5px;
-font-size: 20px;
-
-}
-
-body {
-    background: #171a21;
-}
-
-button {
-    background: red;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    text-align: right;
-    justify-content: flex-end;
-}
-
-button:hover {
-    background: rgb(102, 2, 2);
+.container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 800px;
+margin: 0 auto;
 }
 
 h1 {
-    text-align: center;
+text-align: center;
 }
 
 .sub {
     text-align: center;
 }
 
-.quadrado2 {
-    width: 420px;
-    height: 305px;
-display: inline-block;
-object-fit: cover;
+fieldset {
+    width: 48%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+    
 }
 
-.quadrado3 {
-    padding: 10px;
-width: 800px;
-height: 372px;
-display: inline-block;
+img {
+    width: 300px;
+    height: auto;
 }
 
-.quadrado4 {
-    padding: 10px;
-width: 800px;
-height: 372px;
-display: inline-block;
+fieldset:hover {
+    transform: scale(1.05);
+    border-color: #666;
 }
 
-.quadrado5 {
-    padding: 10px;
-width: 800px;
-height: 372px;
-display: inline-block;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
-.quadrado6 {
-    padding: 10px;
-width: 800px;
-height: 372px;
-display: inline-block;
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.ferrari {
-    border: green;
-    min-width: 100px;
-    max-block-size: 245px;
+body {
+    background-color: #c9c9c9;
 }
 
+button:hover {
+    background-color: #00BFFF;
+    transition: ease 500ms;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+}
